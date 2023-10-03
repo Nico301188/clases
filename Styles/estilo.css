@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
 * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
 }
 
 body {
@@ -26,16 +30,44 @@ nav ul li a {
 
 h1 {
     margin: 0;
+    font-weight: 900;
 }
-section{
+
+h2 {
+    font-weight: 700;
+}
+
+p,
+a,
+li {
+    font-weight: 400;
+}
+
+p,
+li {
+    font-size: 16px;
+
+}
+
+a {
+    /* con respecto al elemento pagres */
+    font-size: 1.5em;
+    /* con respecto a la configuracion del root */
+    /* font-size: 1.5rem; */
+}
+
+section {
     padding: 0 5%;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
 }
-.ml-1{
+
+.ml-1 {
     margin-left: 16px;
 }
+
 .header-container {
     align-items: center;
     background-color: beige;
@@ -44,9 +76,26 @@ section{
     justify-content: space-between;
     padding: 8px;
 }
-.float-right{
+
+.float-right {
     float: right;
 }
-.text{
+
+.text {
     float: right;
+}
+
+.container-galeri {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    /* tambien se puede usar text-align: center; */
+    /* pero no es recomendable ya que es una propiedad de texto */
+}
+
+.galeri-images {
+    border: 4px solid blue;
+    height: 250px;
+    margin: 16Px;
+    padding: auto;
 }
