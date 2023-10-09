@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&display=swap');
 
 * {
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
@@ -13,7 +14,6 @@ html {
 body {
     margin: 0;
     margin-top: 5rem;
-    /* box-sizing: content-box; */
 }
 
 nav ul {
@@ -35,29 +35,23 @@ nav ul li a {
 }
 
 h1 {
+    font-family: 'Pixelify Sans', cursive;
     margin: 0;
     font-weight: 900;
     font-size: 2rem;
 }
 
-header a h1 {
-    color: black;
-}
 
 h2 {
     font-weight: 700;
 }
 
-p,
-a,
-li {
+p,a,li {
     font-weight: 400;
 }
 
-p,
-li {
-    font-size: 16px;
-
+p,li {
+    font-size: 16px;    
 }
 
 a {
@@ -68,16 +62,36 @@ a {
     /* font-size: 1.5rem; */
 }
 
-/* section {
+header a h1 {
+    color: black;
+}
+section {
     padding: 1rem 5%; 
-} */
+}
+#clientes p{
+    color: #198038;
+}
 
 .d-flex {
     display: flex;
 }
 
 .ml-1 {
-    margin-left: 16px;
+    margin-left: 0; /*16px;*/
+}
+
+.float-right {
+    float: right;
+}
+.image {
+    border-width: 2px;
+    border-color: white;
+    border-style: inset inset none none;
+    height: 100%;
+}
+
+.height-200 {
+    height: 200px;
 }
 
 .header-container {
@@ -92,12 +106,10 @@ a {
     width: 100%;
 }
 
-.float-right {
-    float: right;
-}
 
 .text {
-    float: right;
+    /* float: right; */
+    text-align: justify;
 }
 
 .container-galeri {
@@ -112,7 +124,7 @@ a {
     border: 4px solid blue;
     height: 250px;
     margin: 16Px;
-    padding: auto;
+    /* padding: auto; */
 }
 
 .nosotros-banner {
