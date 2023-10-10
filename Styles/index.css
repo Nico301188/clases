@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&display=swap');
+
+* {
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Orbitron', sans-serif;
+    font-style: italic;
+}
+
+html {
+    font: 16px;
+}
+
+body {
+    margin: 0;
+    margin-top: 5rem;
+}
+
+h1 {
+    font-family: 'FuenteVarsity', cursive;
+    margin: 0;
+    font-weight: 900; /*no tiene efecto porque no esta dewfinido en el font face*/
+    font-size: 2rem;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+p,a,li {
+    font-weight: 400;
+}
+
+p,li {
+    font-size: 16px;
+}
+
+a {
+    /* con respecto al elemento pagres */
+    font-size: 1.5rem;
+    text-decoration: none;
+    /* con respecto a la configuracion del root */
+    /* font-size: 1.5rem; */
+}
+
+section {
+    padding: 1rem 5%;
+}
+
+/* helpers */
+
+.d-flex {
+    display: flex;
+}
+
+.float-right {
+    float: right;
+}
+
+.height-200 {
+    height: 200px;
+}
+
+.ml-1 {
+    margin-left: 0;
+    /*16px;*/
+}
