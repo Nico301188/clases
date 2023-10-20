@@ -1,0 +1,39 @@
+form{
+    margin: 2rem;
+    padding-top: 2rem;
+}
+
+form button{
+    width: 15rem;
+    border-radius: 1.5rem;
+    background-color: rgb(87, 7, 162);
+    color: rgb(210,194,225);
+padding: 0.5rem;
+}
+form button:hover{
+    color:  rgb(87, 7, 162);
+    background-color: rgb(210,194,225);
+}
+
+input,textarea, select{
+    border-radius: 1.5rem;
+    border: 1px solid black;
+    font-family: sans-serif;
+    padding: 0.25rem;
+    margin: 0.5rem 0;
+    display: block;
+    width: 15rem;
+}
+input{
+    height: 1.5rem;
+}
+input[type="checkbox"],[type="radio"]{
+    width: 1.5rem;
+}
+.field-Gender{
+    display: flex;
+    align-items: center;
+}
+fieldset{
+    width: 15rem;
+}
