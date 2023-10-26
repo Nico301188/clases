@@ -19,7 +19,8 @@ body {
 h1 {
     font-family: 'FuenteVarsity', cursive;
     margin: 0;
-    font-weight: 900; /*no tiene efecto porque no esta dewfinido en el font face*/
+    font-weight: 900;
+    /*no tiene efecto porque no esta dewfinido en el font face*/
     font-size: 2rem;
 }
 
@@ -27,13 +28,17 @@ h2 {
     font-weight: 700;
 }
 
-p,a,li {
+p,
+a,
+li {
     font-weight: 400;
 }
 
-p,li {
+p,
+li {
     font-size: 16px;
 }
+
 
 a {
     /* con respecto al elemento pagres */
@@ -41,6 +46,12 @@ a {
     text-decoration: none;
     /* con respecto a la configuracion del root */
     /* font-size: 1.5rem; */
+}
+
+@media(max-width:1400px) {
+    a {
+        font-size: 1rem;
+    }
 }
 
 section {
@@ -59,6 +70,10 @@ section {
 
 .height-200 {
     height: 200px;
+}
+
+.width-200 {
+    width: 200px;
 }
 
 .ml-1 {

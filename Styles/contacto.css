@@ -1,36 +1,53 @@
-form{
-    margin: 2rem;
+form {
     padding-top: 2rem;
+    width: 25%;
+}
+@media (min-width:470px) and (max-width:1000px) {
+    form{   
+        width:50%
+    }
+}
+@media (max-width:470px)
+{
+    form{width: 100%;}
 }
 
-form button{
-    width: 15rem;
+form button {
+    width: 100%;
     border-radius: 1.5rem;
     background-color: rgb(87, 7, 162);
-    color: rgb(210,194,225);
-padding: 0.5rem;
-}
-form button:hover{
-    color:  rgb(87, 7, 162);
-    background-color: rgb(210,194,225);
+    color: rgb(210, 194, 225);
+    padding: 0.5rem;
 }
 
-input,textarea{
+form button:hover {
+    color: rgb(87, 7, 162);
+    background-color: rgb(210, 194, 225);
+}
+
+input,textarea {
+    box-sizing: border-box;
     border-radius: 1.5rem;
     border: 1px solid black;
     font-family: sans-serif;
     padding: 0.25rem;
     margin: 0.5rem 0;
     display: block;
-    width: 15rem;
+    width: 100%;
 }
-input{
+
+input {
     height: 1.5rem;
 }
-input[type="checkbox"]{
+
+input[type="checkbox"] {
     width: 1.5rem;
 }
-.field-conditions{
+
+.form-container{
+    padding: 2rem;
+}
+.field-conditions {
     display: flex;
     align-items: center;
 }
